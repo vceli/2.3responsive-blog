@@ -1,0 +1,28 @@
+.text-white{
+	color: white;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.text-caqui{
+	color: #F7BA6A;
+}
+
+.text-fondo{
+	color: #666;
+}
+
+.cajachica{
+	border:1px solid rgba(0,0,0,.15);
+}
+
+.bg-black{
+	background-color: #1C1821;
+}
+
+.bg-fondo{
+	background-color: #2D2735;
+}
+

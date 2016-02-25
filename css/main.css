@@ -1,0 +1,319 @@
+/* Inserta tu codigo aqui */
+
+body{
+	font-family: 'Courgette';
+}
+
+a{
+	text-decoration: none;
+}
+
+nav a{
+	font-family: 'Open Sans';
+	font-style: italic;
+    margin-left: 15px;
+    font-size: 15px;
+    color: white;
+}
+
+nav a:hover{
+	color: #F7BA6A;
+}
+
+header img{
+	width: 276px;	
+}
+
+.portada{
+	background-image: url(../image/header-image.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+	padding-bottom: 114px;
+    padding-top: 88px;
+    margin-bottom: 38px;
+}
+
+.portada h1{
+	font-size: 76px;
+	color: #F7BA6A;
+	margin-top: 33px;
+}
+
+p{
+	font-family: 'Open Sans';
+	font-style: italic;
+	color: white;
+	margin-bottom: 31px;
+    margin-top: 14px;
+}
+
+.cajachica{
+	width: 63%;
+	margin:auto;
+	background-color: #1C1821;
+}
+
+.section2{
+	margin-bottom: 40px;
+}
+
+.flor{
+	background-repeat: no-repeat;
+    background-position: top;
+    background-size:cover;
+    padding-bottom: 211px;
+}
+
+.flor1{
+	background-image: url(../image/image7.jpg);
+}
+
+.flor2{
+	background-image: url(../image/image3.jpg);
+}
+
+.flor3{
+	background-image: url(../image/image2.jpg);
+}
+
+h4{
+	color: #F7BA6A;
+	margin-top: 16px;
+}
+
+.foto{
+	border:1px solid transparent;
+	width: 105%;
+    /*float: right;*/
+}
+
+.flowers{
+	background-image: url(../image/image4.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+	padding-bottom: 352px;
+}
+
+.ladoIzquierdo{
+	/*width: 30%;*/
+	border:1px solid transparent;
+}
+
+input {
+	width: 87%;
+    padding: 15px 41% 15px 17px;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-bottom: 24px;
+    border: none;
+    background-color: rgba(255,255,255,0.09);
+}
+
+form{
+	border-radius: 7px;
+	margin-bottom: 14px;
+}
+
+.girl{
+	background-image: url(../image/kew_gardens_3_500x500.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;	
+	background-position: top;
+	padding-bottom: 400px;
+}
+
+.fa{
+	padding: 10.5px;
+    border-radius: 19px;
+    background-color: rgba(255,255,255,0.09);
+    margin-left: 12px;
+    margin-bottom: 19px;
+}
+
+.fa:hover{
+	background-color: #F7BA6A;
+}
+
+.h4modificado, nav a{
+	font-family: 'Open Sans';
+}
+
+.font-open{
+	font-family: 'Open Sans';
+	font-style: normal;
+	padding-left: 7px;
+}
+ 
+footer p {
+    font-size: 13px;
+    padding: 32px 0px;
+    margin-top: 31px;
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 920px) and (max-width: 1400px){
+	.menu{
+		position: static;
+		width: auto;
+		height: auto;
+		transform: translateX(0%);
+		float: right; 
+		display: flex;
+    }
+
+	.menu{
+		position : static;
+		width: auto;
+		height: auto;
+		transform: translateX(-10%);
+		margin-top: 44px;
+	}
+
+	#menu-bar, .fa-bars{
+		display: none;
+	}
+}
+
+
+@media screen and (max-width : 920px) {
+   .container{
+      	width: 90%;
+    }
+	  
+	header{
+		width: 100%;
+		height: 80px;
+		top: 0;
+		left:0;
+	}
+
+	#menu-bar{
+		display: none;
+	}
+
+	header label{
+		float: right;
+		margin: 15px 0;
+		cursor:pointer;
+	}
+	
+	.menu{
+		position: absolute;
+		top: 77px;
+		left: 0;
+		width: 100%;
+		height: 41vh;
+		background: rgba(255,255,255,0.08);
+		z-index: 100;
+		transition: all 0.5s;
+		transform: translateX(-100%);
+	}
+
+	.menu a{
+		display: block;
+		color:white;
+		color: #fff;
+		height: 50px;
+		padding: 10px;
+		border-bottom: 1px solid rgba(255,255,255,0.5);
+	}
+	
+	.menu a:hover{
+		background: rgba(255,255,255,0.3);
+	}
+
+	#menu-bar:checked ~	.menu{
+		transform: translateX(0%);
+	}
+
+	.fa-bars{
+		font-size: 36px;
+		color: white;
+        background: transparent;
+	}
+
+	header.container{
+		display: table;
+	}
+
+	.cajachica{
+	  	width: 79%;
+	}
+		
+	.col-4{
+		width: 95%;
+		padding: 0;
+	}
+
+	.col-7{
+		width: 100%;
+		padding: 0;
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+	
+	header{
+		width: 100%;
+		height: 80px;
+		top: 0;
+		left:0;
+	}
+
+	#menu-bar{
+		display: none;
+	}
+
+	header label{
+		float: right;
+		margin: 15px 0;
+		cursor:pointer;
+	}
+	
+	.menu{
+		position: absolute;
+		top: 77px;
+		left: 0;
+		width: 100%;
+		height: 41vh;
+		background: rgba(255,255,255,0.08);
+		z-index: 100;
+		transition: all 0.5s;
+		transform: translateX(-100%);
+	}
+
+	.menu a{
+		display: block;
+		color:white;
+		color: #fff;
+		height: 50px;
+		padding: 10px;
+		border-bottom: 1px solid rgba(255,255,255,0.5);
+
+	}
+	
+	.menu a:hover{
+		background: rgba(255,255,255,0.3);
+	}
+
+	#menu-bar:checked ~	.menu{
+		transform: translateX(0%);
+	}
+
+	.fa-bars{
+		font-size: 36px;
+		color: white;
+        background: transparent;
+	}
+
+	header.container{
+		display: table;
+	}
+
+	.col-5{
+		display: none;
+	}
+}
